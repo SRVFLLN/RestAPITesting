@@ -143,8 +143,6 @@ namespace JSONHolderProject
                 }
             };
             response = AplcationAPI.SendResource(Resource.User, newUser);
-            string nnn = Newtonsoft.Json.JsonConvert.SerializeObject(newUser);
-            nnn = nnn;
             statusCode = response.StatusCode;
             var createdUser = Deserialization.GetObjectFromResponse<User>(response);
             Assert.AreEqual(HttpStatusCode.Created, statusCode, "Wrong status code");
