@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<config>
+	<api>https://jsonplaceholder.typicode.com/</api>
+<post>
+	<get>99</get>
+	<getCheck>10</getCheck>
+	<getOut>150</getOut>
+	<userId>2</userId>
+	<delete>80</delete>
+	<filter>?userId=2</filter>
+	<check>"title": "adipisci placeat illum aut reiciendis qui"</check>
+</post>
+	<user>
+		<get>4</get>
+		<getOut>12</getOut>
+		<change>8</change>
+		<filter>?company.name=Considine-Lockman</filter>
+		<check>"email": "Karley_Dach@jasper.info"</check>
+	</user>
+</config>
